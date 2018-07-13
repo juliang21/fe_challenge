@@ -1,0 +1,198 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 360px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.statusbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.status_content {
+  padding-left: 75%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 30%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  width: 100%;
+  background-color: #005EA8;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+header h1 {
+width: 200px;
+font-size: 20px;
+display: inline;
+margin-right: 20px;
+font-weight: 400;
+}
+
+.navbar {
+  padding: 20px;
+  height: 22px;
+}
+
+.menu {
+margin-right: 20px;
+display: inline;
+}
+
+
+/*
+.listing {
+  padding-left: 44px;
+} */
+
+.listing h3 {
+  color: #A1A7B3;
+  padding-left: 44px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Just in case I need it afterwards
+#buses {
+  width: 360px;
+  height: auto;
+  border-bottom: 1px solid;
+  border-color: #000;
+  display: block;
+}
+*/
+
+
+ul {
+  padding: 0 0 0px 0;
+  border-bottom: 1px solid #f5f5f5;
+  max-height: 90px;
+
+}
+.listing li {
+  display: block;
+  padding-right: 15px;
+}
+
+
+/*Group 1: Bus Time*/
+.bus_time {
+  height: 70px;
+  width: 40px;
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.87);
+  float: left;
+  padding-left: 44px;
+  margin: auto;
+}
+
+.number {
+  text-align: center;
+  padding: 0;
+  line-height: 0.8;
+  display: block;
+}
+
+.minutes {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+
+
+/*Group 2: Bus Line*/
+.bus_line {
+  height: 70px;
+  color: #BDBDBD;
+  float: left;
+  font-size: 30px;
+  font-weight: 400;
+  /*padding-left: 5px;
+  padding-right: 5px;*/
+}
+
+.bus_line_number {
+  display: inline;
+  position: relative;
+  top: 10%;
+}
+
+
+/*Group 3: Bus Time*/
+.bus_destination {
+  height: 70px;
+  /*padding-left: 5px;
+  padding-right: 5px;*/
+  width: 160px;
+  float: left;
+}
+
+.direction {
+/*margin-top: 7px;*/
+  display: block;
+}
+
+.via {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.status{
+  color: #00C853;
+}
+
+.status_delayed {
+  color: #EC407A;
+}
+
+.new_status {
+  color: #00C853;
+  font-size: 12px;
+}
+
+/*Group 4: Arrow*/
+.more_info {
+  height: 70px;
+  padding-right: 45px;
+}
+
+.more_info img {
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  padding-top: 15px;
+  width: 360px;
+  height: 33px;
+  background-color: #000;
+}
+
+.item1 {
+  padding: 0;
+  position: relative;
+  left: 72px;
+}
+
+.item2 {
+  padding: 0;
+  position: relative;
+  left: 152px;
+}
+
+.item3 {
+  padding: 0;
+  position: relative;
+  left: 233px;
+}
