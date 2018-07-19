@@ -148,6 +148,7 @@ ul {
 .direction {
 /*margin-top: 7px;*/
   display: block;
+  margin-bottom: 5px;
 }
 
 .via {
@@ -167,6 +168,7 @@ ul {
   /*color: #31DBB5;*/
   color: #EF6C00;
   font-size: 14px;
+  font-weight: 300;
 }
 
 /*Group 4: Arrow*/
